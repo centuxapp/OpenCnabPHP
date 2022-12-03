@@ -1,4 +1,5 @@
 <?php
+
 /*
  * CnabPHP - Geração de arquivos de remessa e retorno em PHP
  *
@@ -23,12 +24,15 @@
  * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
+
 namespace CnabPHP;
+
 use \CnabPHP\RemessaAbstract;
-use \CnabPHP;
-class Remessa extends RemessaAbstract{
-	public function __construct($banco,$layout,$data){    
-		parent::__construct($banco,$layout,$data);
+
+class Remessa extends RemessaAbstract
+{
+	public function __construct($banco, $layout, $data)
+	{
+		parent::__construct($banco, $layout, $data);
 	}
 }
-?>

@@ -1,4 +1,5 @@
 <?php
+
 namespace CnabPHP;
 
 use Exception;
@@ -76,7 +77,8 @@ abstract class RetornoAbstract
         $this->children[] = new $class($linhasFiltradas[count($linhasFiltradas) - 1]);
     }
 
-    public function hasPix() {
+    public function hasPix()
+    {
         return self::$pix;
     }
 
